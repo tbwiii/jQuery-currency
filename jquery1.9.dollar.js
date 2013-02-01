@@ -54,6 +54,8 @@
  	}
 
  	$this.html(number);
+
+ 	return $this;
  
   };
 
