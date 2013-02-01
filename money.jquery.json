@@ -1,0 +1,37 @@
+{
+    "name": "money",
+    "title": "jQuery Number to Currency",
+    "description": "jQuery plugin for converting numbers to a currency format.",
+    "keywords": [
+        "money",
+        "dollar",
+        "pounds",
+        "currency",
+        "euro"
+    ],
+    "version": "2.1.2",
+    "author": {
+        "name": "Ted Waller",
+         "url": "http://tbwiii.com"
+    },
+    "maintainers": [
+        {
+            "name": "Ted Waller",
+            "email": "ted@tbwiii.com",
+            "url": "http://tbwiii.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/tbwiii/jQuery-currency/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/tbwiii/jQuery-currency/issues",
+    "homepage": "https://github.com/tbwiii/jQuery-currency",
+    "docs": "https://github.com/tbwiii/jQuery-currency",
+    "download": "http://code.jquery.com/#money",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
