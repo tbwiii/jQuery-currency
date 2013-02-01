@@ -1,16 +1,3 @@
-/*!
- * jQuery plugin to changing numbers to currency format
- * Version 1.0.1
- * Original author: @tbwiii
- * Licensed under the MIT license
- *
- * 
- * $(selector).money([number][, options])
- * number if you want to replace what's inside your selected node - leave blank if you want to manipulate what's in the node
- * options for commas and currency symbol. "{ comma : true/false, symbol : true/false/€/£ }" (defaults are true)
-/*/ 
-
-
 ;(function( $ ){
 
   $.fn.money = function(number, format) {
