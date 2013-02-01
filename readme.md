@@ -7,7 +7,7 @@
 ### Usage
 
 ```
-$(el).dollar([number][, options]);
+$(el).money([number][, options]);
 ```
 
 **number** : if you want to replace what's inside your selected node - leave blank if you want to manipulate what's in the node
@@ -23,7 +23,7 @@ $(el).dollar([number][, options]);
 ```
 var cost = $('<span>')
 
-$cost.dollar((300.234 + 34.234324),{ commas: true, symbol: "£" });
+$cost.money((300.234 + 34.234324),{ commas: true, symbol: "£" });
 
 cost.appendTo("#total");
 
