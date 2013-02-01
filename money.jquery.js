@@ -1,6 +1,6 @@
 /*!
  * jQuery plugin to changing numbers to currency format
- * Version 1.0.0
+ * Version 1.0.1
  * Original author: @tbwiii
  * Licensed under the MIT license
  *
