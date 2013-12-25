@@ -6,7 +6,7 @@
 
 ### Usage
 
-```
+```javascript
 $(el).money([number][, options]);
 ```
 
@@ -14,13 +14,13 @@ $(el).money([number][, options]);
 
 **options** : Object containing settings for commas and currency symbol. (default to true and "$")
 
-```
-{ comma : [true/false], symbol : [true/false/€/£] }
+```javascript
+{ comma : [true/false], symbol : [true/false/'€'/'£'] }
 ```
 
 ### Example
 
-```
+```javascript
 var cost = $('<span>')
 
 $cost.money((300.234 + 34.234324),{ commas: true, symbol: "£" });
