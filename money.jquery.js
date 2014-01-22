@@ -8,7 +8,6 @@
   		//incase just parameters are entered and not a number
   		var format = number;
   		number = $this.html();
-  		console.log(format)
   	}
 
   	
